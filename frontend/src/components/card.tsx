@@ -10,7 +10,7 @@ const Card: FC<UserList> = ({users}) => {
         <div>
             {users.map(user =>
                     <div key={user.chatId}>
-
+                        <span>chatId:{user.chatId} </span>
                     </div>
                 )}
         </div>
